@@ -1,0 +1,11 @@
+numpy
+scipy
+pandas
+matplotlib
+scikit-learn
+umap-learn
+jupyter
+notebook
+tqdm
+seaborn
+torch

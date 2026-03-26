@@ -1,0 +1,46 @@
+Implement these files:
+
+1) src/config.py
+- project paths using pathlib
+- default constants for test split, random seed, feature type, max samples
+- localization defaults (k for WKNN)
+- channel charting defaults
+
+2) src/data_loader.py
+- helper to save/load processed datasets in .npz format
+- expect arrays X (features) and y (2D positions)
+
+3) src/preprocessing.py
+- train/test split
+- standardization
+- optional random subsampling
+
+4) src/feature_extraction.py
+- function to convert complex CSI tensors to flattened magnitude features
+- batch version
+
+5) src/localization/metrics.py
+- Euclidean localization error per sample
+- RMSE
+
+6) src/localization/wknn.py
+- a reusable WKNNLocalizer class using scikit-learn NearestNeighbors
+- weighted inverse-distance averaging of coordinates
+
+7) src/visualization/plots.py
+- scatter plot of UE positions
+- error CDF plot
+- error heatmap using true test positions and per-sample errors
+
+8) scripts/prepare_data.py
+- create a synthetic dataset with 2D positions and correlated feature vectors
+- save as data/processed/baseline_dataset.npz
+
+9) scripts/run_wknn.py
+- load the .npz dataset
+- split + standardize
+- train WKNN
+- print RMSE
+- plot CDF and heatmap
+
+Use clean docstrings, type hints where practical, and a research-oriented style.
