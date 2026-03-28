@@ -44,6 +44,7 @@ The included Streamlit app provides an interactive, professional interface for e
 > Replace these placeholders with your own results and screenshots as you progress.
 
 
+
 **Project Figures:**
 
 - ![UE Positions](docs/figures/ue_positions.png)
@@ -58,8 +59,17 @@ The included Streamlit app provides an interactive, professional interface for e
   - *Channel Chart (MDS)*: 2D embedding of CSI features using MDS, colored by true x/y.
 - ![Channel Chart UMAP](docs/figures/channel_chart_umap.png)
   - *Channel Chart (UMAP)*: 2D embedding of CSI features using UMAP, colored by true x/y.
-- ![Streamlit UI Overview](docs/figures/streamlit_ui_overview.png)
-  - *Streamlit UI*: Overview of the interactive dashboard for dataset exploration and analysis.
+
+---
+
+## 🖥️ UI Demo
+
+- **Overview Tab:**  
+  ![UI Overview](docs/figures/ui_overview.png)
+- **Fingerprint Localization Tab:**  
+  ![UI Localization](docs/figures/ui_localization.png)
+- **Channel Charting Tab:**  
+  ![UI Charting](docs/figures/ui_charting.png)
 
 ---
 
