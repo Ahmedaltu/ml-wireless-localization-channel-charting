@@ -9,12 +9,12 @@ from src.config import DATA_PROCESSED_DIR, WKNN_K, WKNN_EPS
 
 
 def main():
-    dataset_path = DATA_PROCESSED_DIR / "baseline_dataset.npz"
+    dataset_path = DATA_PROCESSED_DIR / "real_baseline.npz"
 
     if not dataset_path.exists():
         raise FileNotFoundError(
             f"Dataset not found at {dataset_path}. "
-            "Create data/processed/baseline_dataset.npz with arrays X and y."
+            "Create data/processed/real_baseline.npz with arrays X and y."
         )
 
     X, y = load_npz_dataset(dataset_path)
