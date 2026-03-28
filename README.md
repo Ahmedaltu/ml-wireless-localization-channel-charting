@@ -43,10 +43,13 @@ The included Streamlit app provides an interactive, professional interface for e
 
 > Replace these placeholders with your own results and screenshots as you progress.
 
-**Example Figures:**
+
+**Project Figures:**
 
 - ![UE Positions](docs/figures/ue_positions.png)
   - *UE spatial distribution*: Scatter plot of user equipment positions in the dataset.
+- ![Predicted vs True Positions](docs/figures/pred_vs_true.png)
+  - *Predicted vs True Positions*: Comparison of predicted and true UE coordinates (blue: true, orange: predicted).
 - ![WKNN Error CDF](docs/figures/wknn_error_cdf.png)
   - *WKNN Error CDF*: Cumulative distribution of localization errors (meters).
 - ![WKNN Error Heatmap](docs/figures/wknn_error_heatmap.png)
