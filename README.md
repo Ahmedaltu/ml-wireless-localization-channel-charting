@@ -33,14 +33,20 @@ The included Streamlit app provides an interactive, professional interface for e
 
 > Replace these placeholders with your own results and screenshots as you progress.
 
-| Figure | Caption |
-|--------|---------|
-| ![UE Positions](docs/figures/ue_positions.png) | **UE spatial distribution**: Scatter plot of user equipment positions in the dataset. |
-| ![WKNN Error CDF](docs/figures/wknn_error_cdf.png) | **WKNN Error CDF**: Cumulative distribution of localization errors (meters). |
-| ![WKNN Error Heatmap](docs/figures/wknn_error_heatmap.png) | **WKNN Error Heatmap**: Spatial heatmap of localization errors across the test set. |
-| ![Channel Chart MDS](docs/figures/channel_chart_mds.png) | **Channel Chart (MDS)**: 2D embedding of CSI features using MDS, colored by true x/y. |
-| ![Channel Chart UMAP](docs/figures/channel_chart_umap.png) | **Channel Chart (UMAP)**: 2D embedding of CSI features using UMAP, colored by true x/y. |
-| ![Streamlit UI Overview](docs/figures/streamlit_ui_overview.png) | **Streamlit UI**: Overview of the interactive dashboard for dataset exploration and analysis. |
+**Example Figures:**
+
+- ![UE Positions](docs/figures/ue_positions.png)
+  - *UE spatial distribution*: Scatter plot of user equipment positions in the dataset.
+- ![WKNN Error CDF](docs/figures/wknn_error_cdf.png)
+  - *WKNN Error CDF*: Cumulative distribution of localization errors (meters).
+- ![WKNN Error Heatmap](docs/figures/wknn_error_heatmap.png)
+  - *WKNN Error Heatmap*: Spatial heatmap of localization errors across the test set.
+- ![Channel Chart MDS](docs/figures/channel_chart_mds.png)
+  - *Channel Chart (MDS)*: 2D embedding of CSI features using MDS, colored by true x/y.
+- ![Channel Chart UMAP](docs/figures/channel_chart_umap.png)
+  - *Channel Chart (UMAP)*: 2D embedding of CSI features using UMAP, colored by true x/y.
+- ![Streamlit UI Overview](docs/figures/streamlit_ui_overview.png)
+  - *Streamlit UI*: Overview of the interactive dashboard for dataset exploration and analysis.
 
 ---
 
