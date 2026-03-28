@@ -1,22 +1,32 @@
 # CSI-Based Fingerprint Localization and Channel Charting for Wireless Networks
 
-A research-grade machine learning project for wireless communications, developed for a Master's-level course and technical portfolio. This project leverages wireless channel features (CSI) for fingerprint localization and channel charting, with a focus on realistic data (DeepMIMO or exported real/simulated datasets). The work is directly relevant to 5G/6G, RAN simulation, and Digital Twin analysis, and includes a professional Streamlit UI for demonstration and exploration.
+> **A research-grade machine learning project for wireless communications**
 
 ---
 
-## Key Features
+🚀 **Project Summary**
 
-- CSI feature extraction from realistic wireless channel data
-- Fingerprint localization using Weighted K-Nearest Neighbors (WKNN)
-- Planned: MLP-based localization for learning-based comparison
-- Channel charting with MDS (classical) and UMAP (manifold learning)
-- Error visualization: RMSE, CDF, and spatial heatmaps
-- Interactive, presentation-ready Streamlit dashboard
-- Modular, research-oriented codebase for easy extension
+A professional ML project for wireless communications, developed for a Master's-level course and technical portfolio. This repository leverages wireless channel features (CSI) for:
+- **Fingerprint localization**
+- **Channel charting**
+
+with a focus on realistic data (DeepMIMO or exported real/simulated datasets). The work is directly relevant to **5G/6G**, **RAN simulation**, and **Digital Twin** analysis, and includes a polished Streamlit UI for demonstration and exploration.
 
 ---
 
-## Project Demo / UI Preview
+## ✨ Key Features
+
+- 📡 CSI feature extraction from realistic wireless channel data
+- 📍 Fingerprint localization using Weighted K-Nearest Neighbors (WKNN)
+- 🤖 Planned: MLP-based localization for learning-based comparison
+- 🗺️ Channel charting with MDS (classical) and UMAP (manifold learning)
+- 📊 Error visualization: RMSE, CDF, and spatial heatmaps
+- 🖥️ Interactive, presentation-ready Streamlit dashboard
+- 🧩 Modular, research-oriented codebase for easy extension
+
+---
+
+## 🖼️ Project Demo / UI Preview
 
 The included Streamlit app provides an interactive, professional interface for exploring the project pipeline:
 
@@ -29,7 +39,7 @@ The included Streamlit app provides an interactive, professional interface for e
 
 ---
 
-## Results / Figures
+## 📈 Results / Figures
 
 > Replace these placeholders with your own results and screenshots as you progress.
 
@@ -50,7 +60,7 @@ The included Streamlit app provides an interactive, professional interface for e
 
 ---
 
-## Methodology
+## 🧠 Methodology
 
 - **Wireless dataset generation/loading**: Uses DeepMIMO or exported realistic wireless datasets.
 - **CSI preprocessing**: Converts complex channel matrices to magnitude-based feature vectors.
@@ -61,7 +71,7 @@ The included Streamlit app provides an interactive, professional interface for e
 
 ---
 
-## Repository Structure
+## 🗂️ Repository Structure
 
 ```
 app.py
@@ -74,7 +84,7 @@ archive/                # (if synthetic baseline scripts were archived)
 
 ---
 
-## How to Run
+## ⚡ How to Run
 
 1. **Environment setup**
    ```bash
@@ -103,7 +113,7 @@ archive/                # (if synthetic baseline scripts were archived)
 
 ---
 
-## Example Output / Interpretation
+## 🧐 Example Output / Interpretation
 
 - **RMSE**: Root Mean Squared Error of localization (meters); lower is better.
 - **Error CDF**: Shows the proportion of test samples below each error threshold.
@@ -114,7 +124,7 @@ archive/                # (if synthetic baseline scripts were archived)
 
 ---
 
-## Why This Project Matters
+## 🌐 Why This Project Matters
 
 - **Fingerprint localization**: Enables accurate UE positioning and context awareness in wireless networks.
 - **Channel charting**: Learns the underlying radio geometry, supporting advanced RAN analytics.
@@ -123,7 +133,7 @@ archive/                # (if synthetic baseline scripts were archived)
 
 ---
 
-## Future Work
+## 🔭 Future Work
 
 - MLP/CNN-based localization
 - Trustworthiness, Continuity, Kruskal Stress metrics for charting
@@ -134,7 +144,7 @@ archive/                # (if synthetic baseline scripts were archived)
 
 ---
 
-## Tech Stack
+## 🛠️ Tech Stack
 
 - Python
 - NumPy
